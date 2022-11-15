@@ -1,7 +1,142 @@
+/*
+branco: #fcfaf9
+
+cinza: #b6bcc2
+
+azul claro: #8fc8e5
+
+azul semi-escuro:#68b5e7
+
+azul mais escuro: #1376e0
+*/
+
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F0F2F5;
+}
 
+.navBar{
+    height: 60px;
+    width: 100%;
+    background-color:#1376e0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.imageLogo{
+    height: 30px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+}
+.contentLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkNavBar{
+    display: flex;
+    gap: 5px;
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.links:hover{
+    border-bottom: 1px solid black;
+}
+
+.contentImageSobre{
+    height: 500px;
+}
+
+.sectionSobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #b6bcc2;
+}
+
+.contentSobre{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #68b5e7;
+    padding: 30px;
+    border-radius: 71% 29% 31% 69% /
+                   73% 58% 42% 27%;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.funcao{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.sobre{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleTecnologias{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hrTecnologias{
+    width: 7em;
+    margin: 0 auto;
+    /* padding-top: 5px; */
+    background-color: black;
+}
+
+.tec{
+    width: 90px;
+    height: 90px;
+    background-color: #68b5e7 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.4s;
+    top: 0;
+    cursor: pointer;
+}
+.tec:hover{
+    top:30px;
+    background-color: #1376e0;
+}
+.boxTecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding-top: 30px;
+}
