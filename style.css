@@ -103,6 +103,7 @@ h4{
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
+    /* box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%); */
 }
 
 .funcao{
@@ -128,17 +129,52 @@ h3{
     flex-direction: column;
     gap: 90px;
     height: 500px;
+    margin-top: 90px;
+}
+
+.titlesobreContent{
+    padding-top: 10px;
 }
 
 .containerabout{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 10px;
+    gap: 40px;
+
+}
+
+.imageSobre{
+    border-radius: 71% 29% 31% 69% /
+                   73% 58% 42% 27%; 
+    background-color: #1376e0;
+    margin-left: 7em;
+}
+
+.textSobre{
+    display: flex;
+    /* width: 700px; */
+    /* justify-content: center;     */
+    padding-top: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: #1376e0;
+    padding-bottom: 1rem;
 }
 
 .pContent{
     width: 60%;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.tecnologias{
+    height: 600px;
 }
 
 .hrTecnologias{
@@ -146,6 +182,7 @@ h3{
     margin: 0 auto;
     /* padding-top: 5px; */
     background-color: black;
+    
 }
 
 .tec{
@@ -168,6 +205,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    /* gap: 90px; */
     padding-top: 30px;
+
 }
