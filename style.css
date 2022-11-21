@@ -107,6 +107,120 @@ a{
     color: black;
 }
 
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
 .aboutImageContent{
-    height: 600px;
+    height: 400px;
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    width: 90vh;
+    gap: 2rem;
+}
+
+.aboutHr{
+    border-bottom: 1px dashed white;
+    width: 60%;
+}
+
+.aboutContentFunction{
+    color: white;
+    font-size: 25px;
+}
+
+.aboutH1{
+    color: white;
+    font-size: 40px;
+}
+
+.aboutContentSpan{
+    color: #1376e0;
+}
+
+.aboutTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.aboutTextContent{
+    color: white;
+    font-size: 20px;
+    width: 60%;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutContentImage{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContentText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.aboutContentTextP{
+    color: white;
+    font-size: 20px;
+    width: 60%;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-Content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.aboutContentHR{
+    background-color: white;
+    color: white;
+    width: 70%;
+}
+
+.aboutTecnologieContent{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.aboutTecnologieTittle{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 300px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutTecnologiePrincipalTittle{
+    font-size: 30px;
+}
+
+.aboutTecnologieSubtittle{
+    font-size: 25px;
+}
+
+.aboutTecnologieSubtittle{
+    color: white;
 }
