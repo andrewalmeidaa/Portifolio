@@ -62,8 +62,9 @@ a{
     flex-direction: column;
     /* position: relative;
     top: 17rem; */
-    padding-top: 150px;
+    padding-top: 190px;
     padding-bottom: 290px;
+    flex-wrap: wrap;
 }
 
 .content{
@@ -162,6 +163,7 @@ a{
 .aboutTecnologieContent{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
    
 }
 
@@ -169,7 +171,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     display: flex;
-
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 15px;
 }
@@ -216,6 +218,7 @@ a{
     align-items: center;
     gap: 20PX;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .aboutimageContent{
@@ -231,6 +234,8 @@ a{
 .infoSite{
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
