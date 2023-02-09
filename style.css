@@ -188,25 +188,35 @@ a{
 }
 
 .aboutimageTools{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color:#06234d;
     color: white;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: 0.4s;
-    position: relative;
-    top: 0;
+    transition: .35s;
+    /* position: relative; 
+    top: 0; */
+    transition: .35s;
+    border-radius: 10px;
+
 }
 
-.aboutimageTools:hover{
+/* .aboutimageTools:hover{
     background-color: #d06f28;
     color: white;
     top: -10px;
     cursor: pointer;
     border-radius: 10px;
+    
+   
+} */
+
+.aboutimageTools:hover{
+    background-color: #d06f28;
+    color: white;
 }
 
 .imageTools{
@@ -216,10 +226,17 @@ a{
     align-items: center;
     gap: 20PX;
     padding-top: 30px;
+    flex-wrap: wrap;
+    
+}
+.imageTools:hover>:not(:hover){
+    opacity: .4s;
+    transform: scale(0.9);
+    
 }
 
 .aboutimageContent{
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     /* border: 2px solid white; */
