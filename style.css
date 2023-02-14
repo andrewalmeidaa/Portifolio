@@ -206,7 +206,7 @@ a{
 
 }
 
-/* .aboutimageTools:hover{
+.aboutimageTools:hover{
     background-color: #d06f28;
     color: white;
     top: -10px;
@@ -214,12 +214,8 @@ a{
     border-radius: 10px;
     
    
-} */
+} 
 
-.aboutimageTools:hover{
-    background-color: #d06f28;
-    color: white;
-}
 
 .imageTools{
     display: flex;
